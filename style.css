@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(133, 30, 30);
+}
+svg{
+    width: 20px;
+    height: 20px;
+}
+#table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+tr{ 
+    color: black;
+} 
+#table th {
+    background-color: #e5eaf0;
+    color: rgb(133, 30, 30);
+    text-align: left;
+    padding: 12px;
+    padding: 8px;
+    
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#table tr:hover {
+    background-color: #dfa59b;
+}
+
+#table td {
+    padding: 8px;
+}
+
+#choix {
+  background-color: #f1f7f5;
+  border: none;
+  color: rgb(117, 13, 13);
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 14px 20px;
+  cursor: pointer;
+}
