@@ -10,17 +10,16 @@
 
 <body>
     <h1>Hacker News</h1>
-    <form>
-        <select name="option" id="choix">
-            <option value="topStories" id="top">Top Stories</option>
-            <option value="bestStories" id="best">Best Stories</option>
-            <option value="jobs" id="job">Jobs</option>
-            <option value="polls">Polls</option>
-        </select>
+    <center><div >
+        <br>
+        <button type="submit" value="Jobs" id="job" class="choix">Jobs</button>
+        <button type="submit" value="Polls" id="poll" class="choix">Polls</button>
+        <button type="submit" value="Best Stories" id="best" class="choix">Best Stories</button>
+        <button type="submit" value="Top Stories" id="top" class="choix active">Top Stories</button>
         <br>
         <br>
-    </form>
-    <table id="table">
+    </div></center>
+    <table>
         <thead>
             <tr>
                 <th id="title">Title<span class="data"></span></th>
@@ -32,10 +31,10 @@
         <tbody>
         </tbody>
     </table>
-    <script type="module">
-        import { getData, loadData } from "./cloner.js"
-        getData()
-        loadData()   
+    <br>
+    <center><button type="submit" value="load" class="choix">load more ...</button></center>
+    <script src="cloner.js">
+ 
     </script>
 </body>
 
